@@ -1,0 +1,35 @@
+{
+  "name": "Mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "dompurify": "^2.2.3",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "jsdom": "^16.4.0",
+    "marked": "^1.2.6",
+    "method": "^2.0.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.11.4",
+    "multer": "^1.4.2",
+    "override": "0.0.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "slugify": "^1.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
